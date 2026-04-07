@@ -337,3 +337,7 @@ BEGIN
     END;
 END;
 $$;
+
+/* Execute Procedure */
+
+CALL bronze.load_bronze_layer();
